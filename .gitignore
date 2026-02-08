@@ -65,7 +65,7 @@ qodana.yaml
 .postcss-cache/
 .cache/
 
-# ENV
+# # ENV
 .env.development
 .env.production
 .env.staging
