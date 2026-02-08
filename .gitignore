@@ -1,0 +1,71 @@
+# ===============================
+# Build / Compiled output
+# ===============================
+dist/
+build/
+out-tsc/
+tmp/
+coverage/
+
+# Bazel
+bazel-out/
+
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===============================
+# Cache
+# ===============================
+.angular/
+.sass-cache/
+
+# ===============================
+# Logs & Debug
+# ===============================
+npm-debug.log*
+yarn-error.log*
+testem.log
+libpeerconnection.log
+chrome-profiler-events*.json
+
+# ===============================
+# IDE / Editor
+# ===============================
+.idea/
+.vscode/
+.vs/
+.history/
+.project
+.classpath
+.settings/
+.c9/
+*.launch
+*.sublime-workspace
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Misc
+# ===============================
+connect.lock
+typings/
+qodana.yaml
+
+
+# Tailwind / PostCSS cache
+.postcss-cache/
+.cache/
+
+# ENV
+.env.development
+.env.production
+.env.staging
